@@ -1,0 +1,227 @@
+/* bakgrunnsbilde */
+html { 
+	background: url(product-images/mat-bakgrund.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+  }
+
+
+
+/* Fjerner underlinjen på lenker for et renere design */
+a {
+	text-decoration: none;
+}
+
+
+
+/* Design på selve header */
+#header {
+	width: 100%;
+	height: 75px;
+	background-color: rgb(35, 140, 238, 0.75);
+
+	margin-bottom: 100px;
+
+	display: flex;
+	align-items: center;
+}
+
+	/* Design på logo */
+	#logo {
+		height: 60px;
+		width: 60px;
+
+		margin-left: 10px;
+	}
+
+
+
+	#headerApning {
+		width: 100%;
+	}
+
+		#apningstider {
+			float: left;
+			margin: 2%;
+
+			text-align: center;
+			color: white;
+			font-weight: bold;
+			font-size: large;
+		}
+
+			#frokosttider {
+				padding: 10px;
+				border:  thin solid #d4d4d4;
+				width:  1000px;
+				margin: 10px, 30px auto;
+				background-color: #fff;
+
+				text-align: center;
+				color: black;
+				font-weight: bold;
+				font-size: large;
+			}
+
+
+
+	#header-flex {
+		width: 100%;
+		height: 75px;
+		position: absolute;
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: nowrap;
+	}
+
+		/* Design på knapper i header */
+		.header {
+			height: 50px;
+			width: 200px;
+			background-color: #eb7900;
+			opacity: 200%;
+			border-radius: 10px;
+
+			text-align: center;
+			line-height: 50px;
+
+			margin: 5px;
+		}
+
+			/*text på knapper i header */
+			.header p {
+				color: black;
+				font-weight: bold;
+				font-size: large;
+			}
+
+
+
+/* Flexbox for knapper for tabellen*/
+#button { 
+	width: 100%;
+	height: auto;
+
+	display: flex;
+	justify-content: center;
+	flex-wrap: nowrap;
+} 
+
+	/* Design på knapper i tabell */
+	.tableButton {
+		background-color: rgb(35, 140, 238);
+		border: none;
+		color: white;
+		width: 200px;
+		height: 75px;
+		border-radius: 15px;
+
+		padding: 15px 32px;
+		margin: 5px 5px;
+
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-weight: bold;
+		font-size: larger;
+	}
+
+		/* design på knapper under hover og focus */
+		.tableButton:hover {
+			background-color: rgb(84, 171, 253);
+			transition: 0.75s;
+		}
+		.tableButton:focus {
+			background-color: rgb(84, 171, 253);
+		}
+
+
+			
+/* Flexbox for tabell */
+.table { 
+	width: 100%;
+	height: auto;
+
+	display: flex;
+	justify-content: center;
+	flex-wrap: nowrap;
+	
+}
+
+/* I always reset all the html elements */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: sans-serif;
+	min-height: 100vh;
+	color: #555;
+	padding-bottom: 100px;
+}
+
+table{
+	width:  1000px;
+	margin: 10px, 30px auto;
+}
+
+/* header på tabellen */
+table th{
+	height: 50px;
+	padding: 10px 0;
+	background-color: #eb7900;
+	border-radius: 10px 10px 0px 0px;
+
+	font-weight: bold;
+	font-size: larger;
+	color: black;
+}
+
+/* body på tabellen */
+table td{
+	padding: 10px;
+	border:  thin solid #d4d4d4;
+	width: 18%;
+	text-align: center;
+	background-color: #fff;
+}
+
+table img{
+	width:  70%;
+}
+
+table td.total-price{
+	font-weight: bold;
+	font-size: 22px;
+}
+table a{
+	text-decoration: none;
+	color: darkred;
+	background-color: #ffecef;
+	padding: 10px 15px;
+}
+table a:active{
+	background-color: #ccf4d6;
+	color:  green;
+}
+
+table select{
+	padding: 10px;
+	width:  200px;
+	font-size: 16px;
+	border: thin solid #d4d4d4;
+	background-color: transparent;
+}
+table select:focus{
+	outline: none;
+}
+
+table img{
+	width:  60%;
+}

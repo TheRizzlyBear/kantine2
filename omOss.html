@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Setting the pages character encoding -->
+	<meta charset="UTF-8">
+
+	<!-- The meta viewport will scale my content to any device width -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	 <!-- Link to my stylesheet -->
+	 <link rel="stylesheet" href="styles.css">
+	<title>Sjøvegan VGS Kantine</title>
+</head>
+
+<body>
+    <!-- css-kode kun for omOss.html-siden -->
+    <style>
+        /* body på tabellen */
+        table td{
+            padding: 10px;
+            border:  thin solid #d4d4d4;
+            width: 18%;
+            text-align: center;
+            background-color: #fff;
+
+            font-weight: bold;
+	        font-size: larger;
+	        color: black;
+        }
+
+        #omOss {
+            background-color: #fff;
+        }
+    </style>
+
+	<!-- Header på nettsiden -->
+	<div id="header">
+		<img src="product-images/skoleLogo.png" id="logo">
+
+		<div id="header-flex">
+			<a href="index.html">
+				<div class="header" id="meny">
+					<p>Meny</p>
+				</div>
+			</a>
+
+			<a href="omOss.html">
+				<div class="header" id="omOss">
+					<p>Om oss</p>
+				</div>
+			</a>
+		</div>
+
+		<!-- Åpningstider -->
+		<div id="headerApning">
+			<div id="apningstider">
+				<p>Åpningstider:</p>
+				<p>10:00 til 14:00</p>
+			</div>
+		</div>
+    </div>
+
+	<!-- Selve tabellen -->
+	<div class="table">
+		<table>
+			<thead>
+				<tr>
+					<th>Bilde</th>
+					<th>Navn</th>
+                    <th>Stiling</th>
+				</tr>
+			</thead>
+			<tbody id="data-output">
+				<!-- Se script.js -->
+			</tbody>
+		</table>
+	</div>
+
+    <div class="table">
+        <div id="frokosttider">
+            <p>I tillegg til normal åpningstid, har vi grøt til frokost mandag, tirsdag, torsdag og fredag kl. 08:00 til 08:40</p>
+        </div>
+    </div>
+
+
+
+	<script src="omOss.js"></script> <!-- Link to the javascript file -->
+</body>
+</html>

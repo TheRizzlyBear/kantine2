@@ -1,0 +1,85 @@
+[
+	{
+		"id": 1,
+		"image": "product-images/frokost/goMorgen.jpg",
+		"name": "Go' morgen",
+		"price": "20,-"
+	},
+
+	{
+		"id": 2,
+		"image": "product-images/frokost/nyt.jpg",
+		"name": "Nyt",
+		"price": "20,-"
+	},
+
+	{
+		"id": 3,
+		"image": "product-images/frokost/rislunsj.jpg",
+		"name": "Rislunsj",
+		"price": "20,-"
+	},
+
+	{
+		"id": 4,
+		"image": "product-images/frokost/byggrynslunsj.jpg",
+		"name": "Byggrynslunsj",
+		"price": "20,-"
+	},
+
+	{
+		"id": 5,
+		"image": "product-images/frokost/lefse.jpg",
+		"name": "Lefse",
+		"price": "15,-"
+	},
+
+	{
+		"id": 6,
+		"image": "product-images/frokost/ostebaguette.jpg",
+		"name": "Ostebaguette m/ost og skinke",
+		"price": "40,-"
+	},
+
+	{
+		"id": 7,
+		"image": "product-images/frokost/ostebaguette.jpg",
+		"name": "1/2 Ostebaguette",
+		"price": "20,-"
+	},
+
+	{
+		"id": 8,
+		"image": "product-images/frokost/baguette.jpg",
+		"name": "Stor Havrebaguette",
+		"price": "40,-"
+	},
+
+	{
+		"id": 9,
+		"image": "product-images/frokost/horn.jpg",
+		"name": "Horn",
+		"price": "35,-"
+	},
+
+	{
+		"id": 9,
+		"image": "product-images/frokost/ciabatta.jpg",
+		"name": "Ciabatta",
+		"price": "40,-"
+	},
+
+	{
+		"id": 10,
+		"image": "product-images/frokost/wrapsMedPalegg.jpg",
+		"name": "Wraps m/pålegg",
+		"price": "35,-"
+	},
+
+	{
+		"id": 11,
+		"image": "product-images/frokost/ostebolle.jpg",
+		"name": "Ostebolle",
+		"price": "25,-"
+	}
+]

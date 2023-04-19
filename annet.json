@@ -1,0 +1,43 @@
+[
+	{
+		"id": 1,
+		"image": "product-images/annet/salat.jpg",
+		"name": "Salat pr. 100g",
+		"price": "15,-"
+	},
+
+	{
+		"id": 2,
+		"image": "product-images/annet/mrLee.jpg",
+		"name": "Mr. Lee",
+		"price": "25,-"
+	},
+
+	{
+		"id": 5,
+		"image": "product-images/annet/muffins.jpg",
+		"name": "Muffins",
+		"price": "20,-"
+	},
+
+	{
+		"id": 6,
+		"image": "product-images/annet/kake.jpg",
+		"name": "Div kaker/brød",
+		"price": "15,-"
+	},
+
+	{
+		"id": 1,
+		"image": "product-images/annet/fruktfat.jpg",
+		"name": "Fruktfat",
+		"price": "25,-"
+	},
+
+	{
+		"id": 1,
+		"image": "product-images/annet/epler.jpg",
+		"name": "Hel frukt",
+		"price": "8,-"
+	}
+]

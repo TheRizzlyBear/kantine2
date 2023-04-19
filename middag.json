@@ -1,0 +1,50 @@
+[
+	{
+		"id": 1,
+		"image": "product-images/middag/hamburger.jpg",
+		"name": "Hamburger m/salat og dressing",
+		"price": "50,-"
+	},
+
+	{
+		"id": 2,
+		"image": "product-images/middag/hamburgerOst.jpg",
+		"name": "Hamburger m/salat, dressing og ost",
+		"price": "55,-"
+	},
+
+	{
+		"id": 3,
+		"image": "product-images/middag/fiskeburger.jpg",
+		"name": "Fiskeburger m/salat og dressing",
+		"price": "50,-"
+	},
+
+	{
+		"id": 4,
+		"image": "product-images/middag/polsesmorbrod.jpg",
+		"name": "Pølsesmørbrød m/erter og løk",
+		"price": "50"
+	},
+
+	{
+		"id": 5,
+		"image": "product-images/middag/tacobaguette.jpg",
+		"name": "Taco/kylling baguette",
+		"price": "45,-"
+	},
+
+	{
+		"id": 6,
+		"image": "product-images/middag/tacobaguette.jpg",
+		"name": "1/2 taco/kylling baguette",
+		"price": "25,-"
+	},
+
+	{
+		"id": 7,
+		"image": "product-images/middag/billypizza.jpg",
+		"name": "Billys pizza",
+		"price": "30,-"
+	}
+]

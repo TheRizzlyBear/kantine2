@@ -1,0 +1,71 @@
+[
+	{
+		"id": 1,
+		"image": "product-images/drikker/kaffe.jpg",
+		"name": "Kaffe/Te/Sjokolade",
+		"price": "10,-"
+	},
+
+	{
+		"id": 2,
+		"image": "product-images/drikker/iskaffe.png",
+		"name": "Iskaffe",
+		"price": "20,-"
+	},
+
+	{
+		"id": 3,
+		"image": "product-images/drikker/isklar.jpg",
+		"name": "Isklar",
+		"price": "20,-"
+	},
+
+	{
+		"id": 4,
+		"image": "product-images/drikker/juice.jpg",
+		"name": "Juice 0,5l",
+		"price": "20,-"
+	},
+
+	{
+		"id": 5,
+		"image": "product-images/drikker/sjokomelk.jpg",
+		"name": "Sjokomelk",
+		"price": "15,-"
+	},
+	
+	{
+		"id": 6,
+		"image": "product-images/drikker/milkshake.jpg",
+		"name": "Milkshake",
+		"price": "20,-"
+	},
+
+	{
+		"id": 7,
+		"image": "product-images/drikker/litago.jpg",
+		"name": "Litago 0,5l",
+		"price": "22,-"
+	},
+
+	{
+		"id": 8,
+		"image": "product-images/drikker/kuli.jpg",
+		"name": "Kuli",
+		"price": "18,-"
+	},
+
+	{
+		"id": 9,
+		"image": "product-images/drikker/capriSun.jpg",
+		"name": "Capri Sun",
+		"price": "15,-"
+	},
+
+	{
+		"id": 10,
+		"image": "product-images/drikker/melk.jpg",
+		"name": "Melk 0,25l",
+		"price": "12,-"
+	}
+]

@@ -1,0 +1,29 @@
+[
+    {
+		"id": 1,
+		"image": "ansatte/cafe.jpg",
+		"name": "Monika Bakkevold",
+        "role": "Kantineleder"
+	},
+
+    {
+		"id": 2,
+		"image": "ansatte/cafe.jpg",
+		"name": "Else Åsfrid Strokkenes",
+        "role": "Kantinepersonel"
+	},
+
+    {
+		"id": 3,
+		"image": "ansatte/cafe.jpg",
+		"name": "Natascha scheepmaker",
+        "role": "Kantinepersonel"
+	},
+
+    {
+		"id": 4,
+		"image": "ansatte/cafe.jpg",
+		"name": "Wirudschanee Polyiam Mortensen (Too)",
+        "role": "Vikar"
+	}
+]

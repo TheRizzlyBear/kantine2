@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Setting the pages character encoding -->
+	<meta charset="UTF-8">
+
+	<!-- The meta viewport will scale my content to any device width -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	 <!-- Link to my stylesheet -->
+	 <link rel="stylesheet" href="styles.css">
+	<title>Sjøvegan VGS Kantine</title>
+</head>
+
+<body>
+	<!-- css-kode kun for index.html-siden -->
+	<style>
+		#meny {
+            background-color: #fff;
+		}
+	</style>
+
+	<!-- Header på nettsiden -->
+	<div id="header">
+		<img src="product-images/skoleLogo.png" id="logo">
+
+		<div id="header-flex">
+			<a href="index.html">
+				<div class="header" id="meny">
+					<p>Meny</p>
+				</div>
+			</a>
+
+			<a href="omOss.html">
+				<div class="header" id="omOss">
+					<p>Om oss</p>
+				</div>
+			</a>
+		</div>
+
+		<!-- Åpningstider -->
+		<div id="headerApning">
+			<div id="apningstider">
+				<p>Åpningstider:</p>
+				<p>10:00 til 14:00</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- Knapper for tabellen -->
+	<div id="button">
+		<!-- Knapp for drikker -->
+		<button class="tableButton" id="drikker-btn" onclick="drikkeClick()">
+			<p>Drikke</p>
+		</button>
+
+		<!-- Knapp for frokost -->
+		<button class="tableButton" id="frokost-btn" onclick="frokostClick()">
+			<p>Frokost</p>
+		</button>
+
+		<!-- Knapp for middag -->
+		<button class="tableButton" id="middag-btn" onclick="middagClick()">
+			<p>Middag</p>
+		</button>
+
+		<!-- Knapp for annet -->
+		<button class="tableButton" id="annet-btn" onclick="annetClick()">
+			<p>Annet</p>
+		</button>
+	</div>
+
+	<!-- Selve tabellen -->
+	<div class="table">
+		<table>
+			<thead>
+				<tr>
+					<th>Bilde</th>
+					<th>Produktnavn</th>
+					<th>Pris</th>
+				</tr>
+			</thead>
+			<tbody id="data-output">
+				<!-- Se script.js -->
+			</tbody>
+		</table>
+	</div>
+
+
+	<script src="index.js"></script> <!-- Link to the javascript file -->
+</body>
+</html>
